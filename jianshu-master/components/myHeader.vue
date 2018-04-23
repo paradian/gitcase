@@ -4,7 +4,7 @@
             <div class="width-limit">
                 <!--logo-->
                 <nuxt-link class="logo" to="/">
-                    <img src="~/assets/img/nav-logo.png">
+                    <img src="../assets/img/nav-logo.png">
                 </nuxt-link>
                 <!--右上角，写文章-->
                 <nuxt-link to="/write" class="write-btn">
@@ -15,7 +15,7 @@
                 <div class="user" @mouseover="userShow=true" @mouseleave="userShow=false">
                     <div class="drop-down">
                         <nuxt-link to="/u/123" class="avatar">
-                            <img src="~/assets/img/default-avatar.jpg">
+                            <img src="../assets/img/default-avatar.jpg">
                         </nuxt-link>
                     </div>
                     <ul class="drop-menu" v-show="userShow">
@@ -211,6 +211,7 @@
     }
     nav .user .drop-menu {
         position:absolute;
+        background-color: white;
         left:0;
         box-shadow: 0 0 8px rgba(0,0,0,.1);
         min-width:160px;
