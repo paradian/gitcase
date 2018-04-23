@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae0f7770-7ebe-402a-8d1e-7803e8a89096" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jianshu-master/assets/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jianshu-master/.nuxt/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jianshu-master/.nuxt/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/jianshu-master/.nuxt/client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jianshu-master/.nuxt/components/no-ssr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jianshu-master/.nuxt/components/nuxt-child.js" beforeDir="false" afterPath="$PROJECT_DIR$/jianshu-master/.nuxt/components/nuxt-child.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jianshu-master/.nuxt/components/nuxt-error.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jianshu-master/.nuxt/components/nuxt-error.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jianshu-master/.nuxt/components/nuxt-link.js" beforeDir="false" afterPath="$PROJECT_DIR$/jianshu-master/.nuxt/components/nuxt-link.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jianshu-master/.nuxt/components/nuxt-loading.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jianshu-master/.nuxt/components/nuxt-loading.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jianshu-master/.nuxt/components/nuxt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jianshu-master/.nuxt/empty.js" beforeDir="false" afterPath="$PROJECT_DIR$/jianshu-master/.nuxt/empty.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jianshu-master/.nuxt/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/jianshu-master/.nuxt/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jianshu-master/.nuxt/loading.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jianshu-master/.nuxt/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/jianshu-master/.nuxt/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jianshu-master/.nuxt/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/jianshu-master/.nuxt/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jianshu-master/.nuxt/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/jianshu-master/.nuxt/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jianshu-master/.nuxt/views/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/jianshu-master/.nuxt/views/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jianshu-master/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/jianshu-master/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jianshu-master/components/myHeader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jianshu-master/components/myHeader.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jianshu-master/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jianshu-master/nuxt.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jianshu-master/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jianshu-master/pages/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jianshu-master/pages/sign-in.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jianshu-master/pages/sign-in.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jianshu-master/pages/sign-up.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jianshu-master/pages/sign-up.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jianshu-master/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/jianshu-master/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianshu-master/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/jianshu-master/assets/css/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jianshu-master/assets/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-780">
-              <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+            <state relative-caret-position="-3450">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -100,14 +78,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jianshu-master/pages/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="55" column="85" selection-start-line="55" selection-start-column="85" selection-end-line="55" selection-end-column="85" />
+            <state relative-caret-position="330">
+              <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
                 <element signature="n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#nuxt-link#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -148,8 +130,8 @@
         <option value="$PROJECT_DIR$/jianshu-master/components/myHeader.vue" />
         <option value="$PROJECT_DIR$/jianshu-master/nuxt.config.js" />
         <option value="$PROJECT_DIR$/jianshu-master/build/main.js" />
-        <option value="$PROJECT_DIR$/jianshu-master/assets/css/index.css" />
         <option value="$PROJECT_DIR$/jianshu-master/pages/index.vue" />
+        <option value="$PROJECT_DIR$/jianshu-master/assets/css/index.css" />
       </list>
     </option>
   </component>
@@ -189,26 +171,6 @@
               <item name="gitcase" type="b2602c69:ProjectViewProjectNode" />
               <item name="gitcase" type="462c0819:PsiDirectoryNode" />
               <item name="jianshu-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gitcase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gitcase" type="462c0819:PsiDirectoryNode" />
-              <item name="jianshu-master" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gitcase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gitcase" type="462c0819:PsiDirectoryNode" />
-              <item name="jianshu-master" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gitcase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gitcase" type="462c0819:PsiDirectoryNode" />
-              <item name="jianshu-master" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gitcase" type="b2602c69:ProjectViewProjectNode" />
@@ -280,16 +242,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524452880401</updated>
-      <workItem from="1524452881957" duration="18137000" />
+      <workItem from="1524452881957" duration="20154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18137000" />
+    <option name="totallyTimeSpent" value="20154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22447917" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -394,21 +355,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianshu-master/assets/css/index.css">
+    <entry file="file://$PROJECT_DIR$/jianshu-master/pages/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-780">
-          <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+        <state relative-caret-position="330">
+          <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#nuxt-link#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianshu-master/pages/index.vue">
+    <entry file="file://$PROJECT_DIR$/jianshu-master/assets/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="55" column="85" selection-start-line="55" selection-start-column="85" selection-end-line="55" selection-end-column="85" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="-3450">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
