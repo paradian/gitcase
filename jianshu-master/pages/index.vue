@@ -206,12 +206,58 @@
                                 </div>
                             </li>
                         </ul>
+                        <a href="#" class="load-more">阅读更多</a>
                     </div>
+
                 </div>
             </div>
 
             <div class="col-xs-offset-1 col-xs-7 aside">
                 侧边栏
+              <div class="row">
+                  <!--广告-->
+                  <div class="board">
+                      <nuxt-link to="/">
+                          <img src="../assets/img/ad1.png" alt="">
+                      </nuxt-link>
+                      <nuxt-link to="/">
+                          <img src="../assets/img/ad2.png" alt="">
+                      </nuxt-link>
+                      <nuxt-link to="/">
+                          <img src="../assets/img/ad3.png" alt="">
+                      </nuxt-link>
+                      <nuxt-link to="/">
+                          <img src="../assets/img/ad4.png" alt="">
+                      </nuxt-link>
+                  </div>
+                  <!--推荐作者-->
+                  <div class="recommend-author">
+                      <div class="title">
+                          <span>推荐作者</span>
+                          <nuxt-link to="/" class="page-change">
+                              <i class="fa fa-refresh">换一批</i>
+                          </nuxt-link>
+                      </div>
+                      <ul class="recommend-list">
+                          <li>
+                              <nuxt-link class="avatar" to="/123">
+                                  <img src="../assets/img/default-avatar.jpg" alt="">
+                              </nuxt-link>
+                              <a href="#">
+                                  <i class="fa fa-plus follow">关注</i>
+                              </a>
+                              <nuxt-link to="/123" class="name">
+                                  简书用户
+                              </nuxt-link>
+                              <p>写了198k字 · 1.7k喜欢</p>
+                          </li>
+                      </ul>
+                      <nuxt-link to="/123" class="find-more">
+                          查看更多
+                          <i class="fa fa-right"></i>
+                      </nuxt-link>
+                  </div>
+              </div>
             </div>
         </div>
     </div>
