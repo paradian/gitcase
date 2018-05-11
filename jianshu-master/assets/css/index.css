@@ -227,3 +227,113 @@ vertical-align: middle;
     border: 1px solid #dcdcdc;
     border-radius: 4px;
 }
+.note {
+    position: relative;
+    padding-top: 10px;
+}
+.note .post {
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 620px;
+}
+.note .post .article .author .avatar {
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.avatar img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+img {
+    vertical-align: middle;
+}
+.note .post .article .author .info {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 8px;
+}
+.note .post .article .author .meta {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #969696;
+}
+.note .post .article .follow, .note .post .article  {
+    padding: 0 7px 0 5px;
+    font-size: 12px;
+}
+.follow {
+    border-color: #42c02e;
+}
+.note .post .article .show-content {
+    color: #2f2f2f;
+    word-break: break-word!important;
+    word-break: break-all;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.note .post .follow-detail {
+    padding: 20px;
+    background-color: #hsla;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.note .post .follow-detail .info {
+    min-height: 47px;
+}
+.note .post .follow-detail .avatar {
+    float: left;
+    margin-right: 10px;
+    width: 48px;
+    height: 48px;
+}
+note .post .follow-detail .info .mars {
+    color: #3194d0;
+    font-size: 15px;
+    vertical-align: middle;
+}
+.note .post .follow-detail .btn {
+    float: right;
+    margin: 4px;
+    padding: 8px 0;
+    font-size: 16px;
+}
+.note .post .follow-detail .follow {
+    color: #42c02e;
+    font-weight: 400;
+    line-height: normal;
+    border-color: #42c02e;
+}
+.note .post .follow-detail .signature {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #e1e1e1;
+    color: #969696;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.note .post .meta-bottom .share-group .share-circle i {
+    margin-top: 10px;
+    font-size: 24px;
+    line-height: 2;
+}
+.note .post .meta-bottom .share-group {
+    float: right;
+    margin-top: 6px;
+}
+.fa-weixin {
+    color: #00bb29;
+}
+.fa-weibo {
+    color: #e05244;
+}
+.fa-image {
+    color: #9b9b9b;
+}

@@ -1,7 +1,9 @@
 module.exports = {
   /*
   ** Headers of the page
+  *
   */
+
   head: {
     title: '简书项目',
     meta: [
@@ -13,6 +15,9 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+    plugins: [
+        {src:'~/plugins/myplugins.js',ssr:false}
+    ],
   /*
   ** Global CSS
   */
@@ -21,7 +26,8 @@ module.exports = {
   ** Add axios globally
   */
   build: {
-    vendor: ['axios'],
+    vendor: ['axios',],
+
     /*
     ** Run ESLINT on save
     */

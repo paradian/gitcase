@@ -235,16 +235,28 @@
                       <div class="title">
                           <span>推荐作者</span>
                           <nuxt-link to="/" class="page-change">
-                              <i class="fa fa-refresh">换一批</i>
+                              <i class="fa fa-refresh changePage" @click="changePage()">换一批</i>
                           </nuxt-link>
                       </div>
                       <ul class="recommend-list">
+                          <li>
+                          <nuxt-link class="avatar" to="/123">
+                              <img src="../assets/img/default-avatar.jpg" alt="">
+                          </nuxt-link>
+                          <a href="#">
+                              <i class="fa fa-plus follow" @click="follow()">关注</i>
+                          </a>
+                          <nuxt-link to="/123" class="name">
+                              简书用户
+                          </nuxt-link>
+                          <p>写了198k字 · 1.7k喜欢</p>
+                      </li>
                           <li>
                               <nuxt-link class="avatar" to="/123">
                                   <img src="../assets/img/default-avatar.jpg" alt="">
                               </nuxt-link>
                               <a href="#">
-                                  <i class="fa fa-plus follow">关注</i>
+                                  <i class="fa fa-plus follow" @click="follow()">关注</i>
                               </a>
                               <nuxt-link to="/123" class="name">
                                   简书用户
@@ -280,6 +292,37 @@
         data () {
             return {
                 name:'首页'
+            }
+        },
+        methods:{
+            follow:function () {
+                console.log("get follow");
+                    var follower=document.querySelector(".follow");
+
+                    follower.innerText=="关注"?follower.innerText="已关注":follower.innerText="关注";
+                    follower.className=="fa fa-plus follow"?follower.className="fa fa-check follow":follower.className="fa fa-plus follow";
+                    follower.innerText=="关注"?follower.style.color="#42c02e":follower.style.color="#969696";
+                    console.log(follower);
+                    console.log(this);
+                    if( follower.innerText!=="关注"){
+
+                    follower.onmouseover=function () {
+                        this.innerText="取消关注";
+                        this.className="fa fa-times follow";
+                    }
+                        follower.onmouseleave=function () {
+                            this.innerText="已关注";
+                            this.className="fa fa-check follow";
+                        }
+                }
+            },
+            changePage:function () {
+                console.log("get changePage");
+                var cycle=document.querySelector(".changePage")
+                console.log(cycle);
+                cycle.css({
+                    transform:rotate('360'+deg)
+                })
             }
         }
     }
